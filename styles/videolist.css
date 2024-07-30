@@ -1,0 +1,92 @@
+main {
+    flex-flow: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: Italiana;
+}
+
+#videointroduction {
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(20,20,20,0.4);
+}
+
+#videointroduction h1 {
+    width: 90%;
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 0 0 4px 0;
+    text-align: center;
+}
+
+#videointroduction p {
+    margin: 0;
+    font-size: 18px;
+    color: rgb(150,150,150);
+}
+
+#videolistcontainer {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.videolist {
+    width: calc(100% - 30px);
+    max-width: 400px;
+    margin: 10px;
+    padding: 10px;
+    background: rgba(20,20,20,0.4);
+}
+
+.videolist h1 {
+    padding: 0 0 4px 0;
+    text-align: center;
+    border-bottom: 2px solid rgb(150,0,0);
+}
+
+.videolist p {
+    margin: 10px 0;
+    text-align: center;
+    color: rgb(150,150,150);
+}
+
+
+/* hover:.videolist img {
+    background: rgba(0,0,0,0.8);
+} */
+
+/* STYLES FOR THE EXTRA PICTURES */
+
+#somepictures {
+    
+    text-align: center;
+    font-family: Italiana;
+    color: rgb(150,150,150);
+}
+
+#videoscontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.videoframe {
+    width: 210px;
+    height: 147px;
+    margin: 10px;
+    background: linear-gradient(0deg, rgb(20,20,20), rgb(50,50,50));
+}
+
+.videoframe img {
+    width: 190px;
+    height: 127px;
+    margin: 10px 0 0 10px;
+}
+
+@media all and (max-width: 460px) {
+    .videoframe {width: 360px; height: 247px; margin: 0;}
+    .videoframe img {width: 340px; height: 227px;}
+}
