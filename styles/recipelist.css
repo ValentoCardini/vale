@@ -1,0 +1,61 @@
+main {
+    flex-flow: column;
+    font-family: Italiana;
+}
+
+#recipeintroduction {
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(20,20,20,0.4);
+}
+
+#recipeintroduction h1 {
+    width: 90%;
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 0 0 4px 0;
+    text-align: center;
+}
+
+#recipeintroduction p {
+    margin: 0;
+    font-size: 18px;
+    color: rgb(150,150,150);
+}
+
+#recipelistcontainer {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.recipelist {
+    width: 140px;
+    height: 400px;
+    margin: 10px;
+    padding: 10px;
+    background: rgba(20,20,20,0.4);
+}
+
+.recipelist h1 {
+    padding: 0 0 4px 0;
+    text-align: center;
+    border-bottom: 2px solid rgb(150,0,0);
+}
+
+.recipelist p {
+    margin: 10px 0;
+    color: rgb(150,150,150);
+}
+
+.recipelist img {
+    width: 110px;
+    height: 110px;
+    margin: 0 15px 10px 15px;
+}
+
+@media all and (max-width: 420px) {
+    
+}
