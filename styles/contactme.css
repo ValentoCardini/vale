@@ -1,0 +1,226 @@
+
+#message {
+    margin: 40px auto 0 auto;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+#message div {
+    width: 20px;
+    font-size: 40px;
+}
+
+#message p {
+    width: calc(100% - 20px);
+    max-width: 600px;
+    margin: 0 10px 40px 0;
+    font-family: Tangerine;
+    font-size: 40px;
+}
+
+.socialmediacontainer {
+    width: calc(100% - 20px);
+    max-width: 400px;
+    height: 100px;
+    padding: 20px 10px;
+    margin: 20px auto;
+    display: flex;
+    flex-flow: column;
+    background: rgba(20,20,20,0.4);
+}
+
+.socialmediatitle {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+    font-family: Poiret One;
+}
+
+.socialmediatitle h1 {
+    padding: 0 0 4px 0;
+    text-align: center;
+    font-size: 24px;
+    border-bottom: 1px solid rgb(150,0,0);
+}
+
+.socialmediatitle p {
+    margin: 2px 0 0 0;
+    text-align: center;
+    color: rgba(200,200,200,0.8);
+}
+
+.socialmediaitemscontainer {
+    margin: 10px auto 0 auto;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: Poiret One;
+}
+
+.socialmediaitemscontainer a {
+    color: rgb(220,220,220);
+    text-decoration: none;
+}
+
+.socialmedia {
+    width: 60px;
+    height: 20px;
+    padding: 5px;
+    margin: 5px 10px;
+    background: rgba(40,40,40,0.2);
+}
+
+.socialmedia h2 {
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.socialmedia:hover h2 {
+    color: rgb(150,0,0);
+}
+
+/*
+#papercontainer {
+    width: 60%;
+}
+
+#feathercontainer {
+    width: 40%;
+    max-width: 250px;
+    height: 400px;
+    padding: 20px 0 0 0;
+}
+
+#paper {
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    margin: 0 auto;
+    position: relative;
+    color: rgb(0,0,0);
+    background-color: oldlace;
+    background: linear-gradient(90deg, rgb(218,210,200), rgb(242,233,220) 5%, oldlace 15%);
+}
+
+#paper header {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.material-icons {
+    padding: 6px 0 0 0;
+    font-size: 18px;
+    color: rgb(80,80,80);
+}
+
+#paper h1 {
+    font-family: Italiana;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(60,60,60);
+}
+
+#paper h2 {
+    font-family: Tangerine;
+    font-size: 30px;
+    margin: 20px 0 0 180px;
+    color: rgb(160,0,0);
+}
+
+#paper p {
+    font-family: Italiana;
+}
+
+#papercurl {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 300px;
+    background-color: rgb(30,30,30);
+    background: linear-gradient(45deg, rgb(20,20,20), oldlace 45%, #ddd 50%, rgb(30,30,30) 50%);
+    box-shadow: -1px 2px 7px rgb(20,20,20);
+    transition: all 0.5s ease;
+}
+
+#papercurl:hover {
+    width: 80px;
+    height: 80px;
+    left: 260px;
+}
+
+#paperfold {
+    width: 380px;
+    margin: 40px 0 0 -40px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+#seal {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    background: rgb(120,0,0);
+    box-shadow: 0 -1px 2px rgba(0,0,0,0.8)
+}
+
+#seal p {
+    font-family: Tangerine;
+    font-size: 40px;
+}
+
+#seal .material-icons {
+    padding: 0 0 0 2px;
+    font-size: 48px;
+    color: rgb(140,0,0);
+}
+
+#vini {
+    position: absolute;
+    bottom: 0px;
+    left: 4px;
+    color: rgb(80,0,0);
+}
+
+#cini {
+    position: absolute;
+    bottom: -8px;
+    left: 20px;
+    color: rgb(80,0,0);
+}
+
+#emailscontainer {
+    width: 230px;
+    height: 50px;
+    margin: 40px auto 0 auto;
+}
+
+#socialiconscontainer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto 0 auto;
+}
+
+.socialicons {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(50,50,50);
+    border: 1px solid rgb(50,50,50);
+}
+*/
