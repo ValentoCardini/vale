@@ -1,0 +1,56 @@
+#homesections {
+    margin: 100px 0 0 0;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    font-family: Italiana;
+}
+
+.homesection {
+    width: 420px;
+    padding: 20px;
+    background: rgba(40,40,40,0.2);
+}
+
+.homesection h1 {
+    padding: 0 0 4px 0;
+    border-bottom: 1px solid rgb(150,0,0);
+}
+
+.homesection p {
+    padding: 4px 0 0 0;
+    color: rgb(150,150,150);
+}
+
+/* favicon icon */
+/* need to make a new one with approprite sizes */
+/* this one is too dark */
+
+/*
+#seal {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 500px;
+    left: 100px;
+    background: rgb(50,0,0);
+}
+
+#seal p {
+    font-family: Tangerine;
+    font-size: 400px;
+    color: rgb(220,0,0);
+}
+
+#vini {
+    position: absolute;
+    top: -75px;
+    left: -25px;
+}
+
+#cini {
+    position: absolute;
+    top: 50px;
+    left: 140px;
+}
+*/
