@@ -1,0 +1,174 @@
+/* reset default styles */
+
+header, footer, nav, root {
+    display: block;
+}
+
+html, body, main, header, footer, nav, div, aside, h1, h2, h3, p, img, ul, li {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+h1, h2, h3, p {
+    font-style: none;
+    font-weight: normal;
+}
+
+/* main styles */
+
+html {
+    background: rgb(0,0,0);
+}
+
+body {
+    width: 95%;
+    margin: 0 auto;
+    color: rgb(220,220,220);
+}
+
+#mainheader {
+    width: 100%;
+    height: 100px;
+    padding: 20px 0 0 0;
+    margin: 40px auto;
+    display: flex;
+    flex-flow: column;
+}
+
+#maintitle {
+    margin: 0 0 20px 0;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+}
+
+#maintitle h1 {
+    margin: 0;
+    font-family: Tangerine;
+    font-size: 80px;
+    line-height: 0.8;
+    color: rgb(160,0,0);
+}
+
+#maintitle p {
+    margin: -10px 0 0 0;
+    font-family: Italiana;
+    font-size: 14px;
+    color: rgb(240,240,240);
+}
+
+/*this will be therose*/
+#maintitlebackground {
+    width: 72%;
+    margin: 0 auto;
+}
+
+#maintitlebackground img {
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-flow: column;
+}
+
+/* navigation styles */
+
+#mainnav {
+    height: 40px;
+    padding: 0 0 10px 0;
+    display: flex;
+    flex-flow: row;
+    /*background-image: url("http://valentocardini.com/IMAGES/fleetingpedals.png");
+    background-size: contain;*/
+    /*background: rgba(40,40,40,0.2);*/
+}
+
+#mainnav a {
+    width: 25%;
+    padding: 12px 0 0 0;
+    font-family: Poiret One;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(240,240,240);
+    transition: color 0.2s;
+}
+
+#mainnav a:hover {
+    color: rgb(160,0,0);
+}
+
+#pagetitle {
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: Italiana;
+    font-size: 80px;
+    color: rgba(200,0,0,0.2);
+    z-index: -1;
+}
+
+footer {
+    width: 100%;
+    height: 40px;
+    margin: 40px 0 0 0;
+    padding: 20px 0;
+    display: flex;
+    flex-flow: column;
+    /*background: rgba(20,20,20,0.2);*/
+}
+
+footer p {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Poiret One;
+    font-size: 14px;
+}
+
+footer #footernav {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+/* Button Styles */
+
+.buttons {
+    width: 70px;
+    height: 20px;
+    padding: 4px 0 0 0;
+    margin: 10px;
+    font-family: Poiret One;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 5px;
+    background: rgba(10,10,10,0.8);
+}
+
+.buttons a {
+    text-decoration: none;
+    color: rgb(200,200,200);
+}
+
+/*.buttons:hover a {
+    color: rgb(100,0,0);
+}*/
+
+.verdi a {color: rgb(0,140,0);}
+.bianchi a {color: rgb(250,250,250);}
+.rosso a {color: rgb(160,0,0);}
+
+@media all and (max-width: 420px) {
+    body {width: 100%;}
+    #mainnav {width: 100%; height: 200px; flex-flow: column; background: none;}
+    #mainnav a {width: 100%; height: 48px; padding: 10px 0 0 0; background: rgb(10,10,10);}
+    #mainnav a:nth-child(n) {border-bottom: 1px solid rgb(40,40,40); border-left: none; border-right: none;}
+    #mainnav a:first-child {border-top: 1px solid rgb(40,40,40);}
+}
