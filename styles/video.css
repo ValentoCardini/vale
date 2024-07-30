@@ -1,0 +1,49 @@
+main {
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: Italiana;
+}
+
+.recipepanel {
+    width: 420px;
+    height: 420px;
+    margin: 20px;
+    padding: 20px;
+    background: rgba(20,20,20,0.2);
+}
+
+.backimage {
+    background-image: url("../IMAGES/mochaccino-large.png");
+    background-repeat: no-repeat;
+}
+
+.recipepanel img {
+    width: 420px;
+}
+
+.recipe h2 {
+    margin: 20px 0 10px 0;
+    padding: 0 0 4px 0;
+    border-bottom: 2px solid rgb(150,0,0);
+}
+
+.recipepanel p {
+    color: rgb(170,170,170);
+}
+
+.imgtransparentdivs {
+    width: 360px;
+    padding: 20px;
+    margin: 0 0 10px 0;
+    background: rgba(0,0,0,0.6);
+}
+
+/*.imgdescription p {
+    color: rgb(200,200,200);
+}*/
+
+@media all and (max-width: 420px) {
+    .recipepanel {margin: 20px 0;}
+    .imgtransparentdivs {width: calc(100% - 40px);}
+}
